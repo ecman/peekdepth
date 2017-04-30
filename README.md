@@ -1,5 +1,7 @@
 # peekdepth
 
+[![build status](https://api.travis-ci.org/ecman/peekdepth.png)](https://travis-ci.org/ecman/peekdepth) [![codecov](https://codecov.io/gh/ecman/peekdepth/branch/master/graph/badge.svg)](https://codecov.io/gh/ecman/peekdepth) [![Code Climate](https://codeclimate.com/github/ecman/peekdepth/badges/gpa.svg)](https://codeclimate.com/github/ecman/peekdepth)
+
 Get the depth of an array
 
 # Usage
