@@ -1,0 +1,33 @@
+{
+  "name": "peekdepth",
+  "version": "1.0.0",
+  "description": "Get the depth of an array",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/script/eslint.js *.js && istanbul cover test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecman/peekdepth.git"
+  },
+  "keywords": [
+    "array",
+    "depth",
+    "multi-dimensional",
+    "maxdepth",
+    "ecman"
+  ],
+  "author": "ecman <its.ec@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecman/peekdepth/issues"
+  },
+  "homepage": "https://github.com/ecman/peekdepth#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "istanbul": "^0.4.5"
+  }
+}
