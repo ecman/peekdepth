@@ -4,3 +4,10 @@ node_js:
   - 4
   - 6
   - 7
+addons:
+  code_climate:
+    repo_token: 79dcf864a8fb69330f828519bbd3167eaf9b5f33143453ddf3aa43c9654246f6 
+after_success:
+  - npm install -g codeclimate-test-reporter codecov
+  - codeclimate-test-reporter < coverage/lcov.info
+  - codecov
