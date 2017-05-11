@@ -9,10 +9,10 @@ function peekdepth(arry, seen) {
   }
   seen.add(arry);
   let i = 0;
-  let depth = 1;
+  let depth = 0;
   while (i < arry.length) {
-    depth += peekdepth(arry[i], seen);
+    depth = Math.max(depth, peekdepth(arry[i], seen));
     i += 1;
   }
-  return depth;
+  return 1 + depth;
 }
