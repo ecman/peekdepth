@@ -1,7 +1,7 @@
 {
   "name": "peekdepth",
-  "version": "2.0.0",
-  "description": "Get the depth of an array",
+  "version": "2.0.1",
+  "description": "Get the max depth of a multi-dimensional array",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -18,8 +18,9 @@
   "keywords": [
     "array",
     "depth",
+    "array-depth",
     "multi-dimensional",
-    "maxdepth",
+    "max-depth",
     "ecman"
   ],
   "author": "ecman <its.ec@outlook.com>",
